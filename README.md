@@ -27,6 +27,13 @@ docker compose up
 ```
 This will spin up a MongoDB instance, the server application, the frontend application and will run the Python script. The configuration for this can be found in the [docker-compose.yml](./docker-compose.yml) file.
 
+Wait until the following message is displayed in the terminal:
+```
+complori-python_script-1  | Created course "An introduction to data science with Python"
+complori-python_script-1  | Created course "Building a REST API with Node.js and Typescript"
+complori-python_script-1 exited with code 0
+```
+The frontend application will then be available at http://localhost:3000 and the server at http://localhost:5000.
 ## Process & Decisions
 
 ### Frontend
