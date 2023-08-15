@@ -1,4 +1,4 @@
-# Complori Take-Home Challenge
+# Educational CRUD Application
 
 The project consists of three components:
 - A React [frontend](./frontend/) application written in Javascript.
